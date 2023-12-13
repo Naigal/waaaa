@@ -1,0 +1,97 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	
+	.grid-container {
+			display:grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 100px 400px 100px;
+			
+			gap: 2px 2px;
+		}
+	
+	#item1{
+			grid-column: 1/5
+		}
+	#item2{
+			grid-column: 1/2
+		}
+	#item3{
+			grid-column: 2/5
+		}
+	#item4{
+			grid-column: 1/5
+		}
+
+	.red {
+			background:red;
+			font-size:52px;
+			font-family: Helvetica;
+			text-align:center;
+			border:1px solid black;
+		}
+		
+	.green {
+			background:green;
+			font-size:20px;
+			font-family: Helvetica;
+			text-align:center;
+			border:1px solid black;
+		}
+	
+	.orange {
+			background: orange;
+			font-size: 60px;
+			font-family: Helvetica;
+			text-align: center;
+			border:1px solid black;
+		}
+		
+	.blue {
+			background:blue;
+			font-size:60px;
+			font-family: Helvetica;
+			text-align:center;
+			border:1px solid black;
+		}
+		
+	.pink {
+			background:pink;
+			font-size:20px;
+			font-family: Helvetica;
+			text-align:center;
+			border:1px solid black;
+		}
+	@media (max-width: 1200px) {
+	.grid-container  {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+	}
+	@media (max-width: 600px) {
+	.grid-container  {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	@media (max-width: 300px) {
+	.grid-container  {
+			grid-template-columns: 1fr;
+		}
+	}
+	</style>
+		<title> ambot </title>
+	</head>
+	<body>
+		<div class="grid-container">
+		<div id=item1 class=red>PASTA TRANSPORT PHOTOGRAPHY</div>
+		<div id=item2 class=green><a href="new 1.html">Main Page</a></br>
+		<a href=wews.html>CBS</a></br>
+		<a href="waduh.html">Bus Pitiks</a></br>
+		<a href="jeep.html">Jeepney Pitiks</a></div>
+		<div id=item3 class=orange><img src=chantrans.jpg height=150>  <img src=bernamari.jpg height=150>
+				<img src=ctbacolod.jpg height=150></br> 
+				<img src=myass.jpg height=150> <img src=ct8437.jpg height=150></div>
+		<div id=item4 class=pink>©2023 pt.photography all rights reserved</div>
+	</div>
+	</body>
+	</html>
